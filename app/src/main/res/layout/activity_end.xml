@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/image_back"
+    android:orientation="vertical"
+
+    >
+
+
+    <TextView
+        android:id="@+id/scoreboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="35sp"
+        android:text="RESULTS"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/iv_trophy"
+        android:layout_width="110dp"
+        android:layout_height="172dp"
+        android:layout_gravity="center"
+        android:contentDescription="trophy" />
+
+    <TextView
+        android:id="@+id/tv_win"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Win - Lose"
+        android:textColor="#3500ff"
+
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Username"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_player_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Score"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_cpu_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Score"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:text="Go back"/>
+
+
+</LinearLayout>
